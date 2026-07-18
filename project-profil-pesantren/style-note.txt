@@ -1,0 +1,29 @@
+Nama Proyek:
+Website Profil Pesantren Al-Quds
+
+ CSS pada file ini hanya menggunakan properti:
+   ✓ color
+   ✓ background-color
+   ✓ font-family
+   ✓ font-size
+   ✓ text-align
+
+
+Warna yang Digunakan:
+🟩 Hijau tua: #1b5e20
+🟩 Hijau sedang: #2e7d32
+🟩 Hijau muda: #81c784
+🟩 Hijau sangat muda: #e8f5e9
+⬜ Putih: #ffffff
+⚪ Abu-abu muda: #f5f5f5
+⚫ Abu-abu tua: #333
+
+Website menggunakan font:
+ Segoe UI, Tahoma, Geneva, Verdana, sans-serif ambil dari AI karena tidak tahu font yang bagus.
+
+Tata Letak:
+-Header berada di bagian paling atas dan berisi judul serta menu navigasi.
+-Menu navigasi digunakan untuk berpindah ke halaman Beranda, Tentang, dan Kontak.
+-Isi halaman di buat ada yg menggunakan center, justify dan left karena biar beda beda saja untuk variasi. 
+-Footer berada di bagian bawah sebagai penutup halaman.
+
