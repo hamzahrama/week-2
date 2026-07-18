@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Kontak & Pendaftaran | Haflah Akhirussanah 2026</title>
+
+    <meta
+      name="description"
+      content="Halaman kontak dan formulir pendaftaran Haflah Akhirussanah Pesantren Al-Quds 2026."
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Kontak & Pendaftaran</h1>
+
+      <p>
+        <em
+          >Silakan hubungi kami atau isi formulir pendaftaran di bawah ini.</em
+        >
+      </p>
+
+      <hr />
+
+      <nav>
+        <a href="index.html"> <i class="fa-solid fa-house"></i> Beranda </a>
+
+        |
+
+        <a href="tentang.html">
+          <i class="fa-solid fa-circle-info"></i> Tentang
+        </a>
+
+        |
+
+        <a href="jadwal.html">
+          <i class="fa-solid fa-calendar-days"></i> Jadwal
+        </a>
+
+        |
+
+        <a href="kontak.html"> <i class="fa-solid fa-envelope"></i> Kontak </a>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <section>
+        <h2>Informasi Kontak</h2>
+
+        <p>
+          <i class="fa-solid fa-location-dot"></i>
+          <strong>Alamat :</strong><br />
+          Jl. Pesantren Al-Quds No. 10, Yogyakarta
+        </p>
+
+        <p>
+          <i class="fa-solid fa-phone"></i>
+          <strong>Telepon :</strong><br />
+
+          <a href="tel:+6281234567890"> +62 812-3456-7890 </a>
+        </p>
+
+        <p>
+          <i class="fa-solid fa-envelope"></i>
+          <strong>Email :</strong><br />
+
+          <a href="mailto:info@pesantrenalquds.sch.id">
+            info@pesantrenalquds.sch.id
+          </a>
+        </p>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Formulir Pendaftaran Peserta</h2>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Data Peserta</legend>
+
+            <p>
+              <label for="nama">Nama Lengkap</label><br />
+
+              <input type="text" id="nama" name="nama" required />
+            </p>
+
+            <p>
+              <label for="email">Email</label><br />
+
+              <input type="email" id="email" name="email" required />
+            </p>
+
+            <p>
+              <label for="telepon">Nomor WhatsApp</label><br />
+
+              <input type="tel" id="telepon" name="telepon" required />
+            </p>
+
+            <p>
+              <label for="lahir">Tanggal Lahir</label><br />
+
+              <input type="date" id="lahir" name="lahir" />
+            </p>
+
+            <p>
+              <label>Jenis Kelamin</label><br />
+
+              <input type="radio" id="laki" name="jk" value="Laki-laki" />
+
+              <label for="laki">Laki-laki</label>
+
+              <input type="radio" id="perempuan" name="jk" value="Perempuan" />
+
+              <label for="perempuan">Perempuan</label>
+            </p>
+
+            <p>
+              <label>Jenis Peserta</label><br />
+
+              <input type="checkbox" id="santri" name="peserta" />
+
+              <label for="santri">Santri</label><br />
+
+              <input type="checkbox" id="wali" name="peserta" />
+
+              <label for="wali">Wali Santri</label><br />
+
+              <input type="checkbox" id="umum" name="peserta" />
+
+              <label for="umum">Masyarakat Umum</label>
+            </p>
+
+            <p>
+              <label for="asal"> Asal Sekolah / Instansi </label><br />
+
+              <input type="text" id="asal" name="asal" />
+            </p>
+
+            <p>
+              <label for="kategori"> Kategori Kehadiran </label><br />
+
+              <select id="kategori" name="kategori">
+                <option>Pilih</option>
+
+                <option>Peserta</option>
+
+                <option>Tamu Undangan</option>
+
+                <option>Panitia</option>
+
+                <option>Wali Santri</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="pesan"> Pesan atau Saran </label><br />
+
+              <textarea id="pesan" name="pesan" rows="5" cols="40"></textarea>
+            </p>
+
+            <p>
+              <label for="foto"> Unggah Foto </label><br />
+
+              <input type="file" id="foto" name="foto" />
+            </p>
+
+            <p>
+              <input type="checkbox" id="setuju" required />
+
+              <label for="setuju">
+                Saya telah membaca dan menyetujui tata tertib kegiatan.
+              </label>
+            </p>
+
+            <p>
+              <button type="submit">
+                <i class="fa-solid fa-paper-plane"></i>
+
+                Kirim Pendaftaran
+              </button>
+
+              <button type="reset">
+                <i class="fa-solid fa-rotate-left"></i>
+
+                Reset
+              </button>
+            </p>
+          </fieldset>
+        </form>
+      </section>
+
+      <hr />
+
+      <aside>
+        <h2>Sosial Media</h2>
+
+        <p>
+          <a href="https://instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+
+            Instagram
+          </a>
+        </p>
+
+        <p>
+          <a href="https://youtube.com" target="_blank">
+            <i class="fa-brands fa-youtube"></i>
+
+            YouTube
+          </a>
+        </p>
+
+        <p>
+          <a href="https://wa.me/6281234567890" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+
+            WhatsApp
+          </a>
+        </p>
+      </aside>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p>&copy; 2026 Pesantren Al-Quds</p>
+
+      <p>
+        <a href="mailto:info@pesantrenalquds.sch.id">
+          <i class="fa-solid fa-envelope"></i>
+
+          info@pesantrenalquds.sch.id
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f7f4;
+  color: #333333;
+  margin: 20px;
+}
+
+header {
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: darkgreen;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: darkgreen;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+nav {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  margin: 8px;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+aside {
+  background-color: #eef8ee;
+  border: 1px solid darkgreen;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 80%;
+  border-radius: 10px;
+  border: 2px solid darkgreen;
+}
+
+figure {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 8px;
+}
+
+ul,
+ol {
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: darkgreen;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #999999;
+  border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+
+button {
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: green;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 25px;
+  border-radius: 8px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: yellow;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
