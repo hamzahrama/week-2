@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Pendaftaran Ekstrakurikuler</title>
+  </head>
+  <body>
+    <h1>Formulir Pendaftaran Ekstrakurikuler</h1>
+
+    <form action="/pendaftaran-ekskul.html" method="post">
+      <fieldset>
+        <legend><strong>Data Diri Santri</strong></legend>
+
+        <p>
+          <label for="nama">Nama Lengkap:</label><br />
+          <input
+            type="text"
+            id="nama"
+            name="nama"
+            placeholder="Isi Namamu Di Sini"
+            required
+          />
+        </p>
+
+        <p>
+          <label for="email"
+            ><strong>Wajib di isi untuk konfirmasi perizinan</strong></label
+          ><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Isi Email Orang Tua/Wali"
+            required
+          />
+        </p>
+
+        <p>
+          <label for="telepon">Nomor Telepon/WA:</label><br />
+          <input type="tel" id="telepon" name="telepon" required />
+        </p>
+
+        <p>
+          <label for="lahir">Tanggal Lahir:</label><br />
+          <input type="date" id="lahir" name="lahir" required />
+        </p>
+
+        <p>
+          <label>Jenis Kelamin:</label><br />
+
+          <input
+            type="radio"
+            id="laki"
+            name="jenis_kelamin"
+            value="Laki-laki"
+            required
+          />
+          <label for="laki">Laki-laki</label>
+
+          <input
+            type="radio"
+            id="perempuan"
+            name="jenis_kelamin"
+            value="Perempuan"
+          />
+          <label for="perempuan">Perempuan</label>
+        </p>
+
+        <p>
+          <label>Ekstrakurikuler yang Diminati:</label><br />
+
+          <input type="checkbox" id="pramuka" name="ekskul" value="Pramuka" />
+          <label for="pramuka">PRAMUKA</label><br>
+
+          <input type="checkbox" id="tahfidz" name="ekskul" value="Tahfidz" />
+          <label for="tahfidz">BAHASA ARAB</label><br>
+
+          <input type="checkbox" id="futsal" name="ekskul" value="Futsal" />
+          <label for="futsal">FUTSAL</label><br>
+
+          <input type="checkbox" id="pencak_silat" name="ekskul" value="pencak_silat" />
+          <label for="pencak_silat">PENCAK SILAT</label>
+        </p>
+
+        <p>
+          <label for="kelas">Kelas/Tingkat Saat Ini:</label><br>
+
+          <select id="kelas" name="kelas" required>
+            <option value="">-- Pilih Kelas --</option>
+            <option value="VII">Kelas VII</option>
+            <option value="VIII">Kelas VIII</option>
+            <option value="IX">Kelas IX</option>
+            <option value="X">Kelas X</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="foto">Unggah Foto Santri:</label><br>
+          <input type="file" id="foto" name="foto" accept="image/*" />
+        </p>
+
+
+        <p>
+          <input type="checkbox" id="setuju" name="setuju" required />
+          <label for="setuju">
+            Saya menyatakan telah membaca dan menyetujui tata tertib Pesantren.
+          </label>
+        </p>
+
+        <p>
+          <label for="motivasi"
+            >Alasan/Motivasi Mengikuti Ekstrakurikuler:</label
+          ><br>
+
+          <textarea
+            id="motivasi"
+            name="motivasi"
+            rows="5"
+            cols="40"
+            placeholder="Tuliskan alasan Anda..."
+            required
+          ></textarea>
+        </p>
+      </fieldset>
+
+      <br>
+
+      <p>
+        <button type="submit">Kirim Pendaftaran</button>
+        <button type="reset">Reset Formulir</button>
+      </p>
+
+    </form>
+  </body>
+</html>
