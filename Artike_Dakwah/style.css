@@ -1,0 +1,169 @@
+:root {
+  --green-dark: #1b5e20;
+  --green: #2e7d32;
+  --gold: #c79a2b;
+  --cream: #f8f3e8;
+  --text: #2f3e2f;
+  --border: #d9cda5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.7;
+  color: var(--text);
+  background: linear-gradient(135deg, #fdfcf7 0%, #eef7ee 100%);
+}
+
+header {
+  background: linear-gradient(135deg, #174d24 0%, #2e7d32 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px 30px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+  margin: 0 0 10px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+header p {
+  margin: 0;
+  font-style: italic;
+  opacity: 0.95;
+}
+
+nav {
+  margin-top: 16px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #ffd97d;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+article,
+section,
+aside,
+footer {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+h2,
+h3 {
+  color: var(--green-dark);
+}
+
+h2::before {
+  content: "✧ ";
+  color: var(--gold);
+}
+
+p {
+  text-align: justify;
+}
+
+strong {
+  color: var(--green-dark);
+}
+
+mark {
+  background: #fff0b3;
+  color: #5a4300;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li::marker {
+  color: var(--gold);
+}
+
+a {
+  color: var(--green);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--gold);
+  text-decoration: underline;
+}
+
+img,
+iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 12px;
+  border: 3px solid var(--green);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th {
+  background: var(--green);
+  color: white;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  background: linear-gradient(135deg, #f2e4bf 0%, #fffdf7 100%);
+}
+
+footer p {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  main {
+    padding: 16px;
+  }
+
+  article,
+  section,
+  aside,
+  footer {
+    padding: 18px;
+  }
+}
